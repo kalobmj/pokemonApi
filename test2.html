@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="test2.css">
+    <title>pokeApi</title>
+    <style id="style">
+        #search-image {
+            height: auto;
+            width: 200px;
+        }
+
+        #pokemon-cry {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pokedex-container">
+        <h1>Pokedex</h1>
+        <img alt="pokedex" id="pokedex-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLEJx7kJR5PxwjKGB4Yj-mG71dJEj1jO_y0g&s" />
+        <input type="text" id="search" placeholder="enter pokemon here">
+        <button id="search-btn" onclick="fetchPokemon()">Search</button>
+        <div id="card"></div>
+    </div>
+</body>
+<script src="script2.js"></script>
+
+</html>
